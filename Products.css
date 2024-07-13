@@ -1,0 +1,43 @@
+.card {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  color: black;
+}
+
+.BuyButton {
+  background-color: rgb(212, 162, 64) !important;
+  border-color: none !important;
+  color: white !important;
+  font-weight: bold !important;
+  padding: 2%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  font-family: TAHOMA;
+  font-weight: bold;
+  border: none !important;
+}
+
+.BuyButton:hover {
+  background-color: rgb(164, 3, 3) !important;
+  border-color: none;
+  color: rgb(255, 253, 253) !important;
+  outline: none !important;
+  outline-style: none !important;
+}
+
+.Products {
+  background-image: url("https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: 100%;
+  color: rgb(1, 1, 1);
+  font-family: TAHOMA;
+  font-weight: bold;
+}

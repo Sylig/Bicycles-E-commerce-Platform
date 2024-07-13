@@ -1,0 +1,69 @@
+.NavBar {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(1, 1, 1);
+}
+
+.header {
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  background-color: transparent;
+  margin-bottom: 50px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.nav-bar-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+
+.link {
+  color: rgb(186, 0, 0);
+  text-decoration: solid;
+}
+
+.link:hover,
+.link:focus {
+  color: rgb(215, 183, 78);
+  text-decoration-line: none;
+}
+
+.input {
+  border: 2px solid rgb(134, 0, 0);
+  border-radius: 6px;
+  color: rgb(128, 0, 0);
+  padding: 5px;
+  margin-right: 30px;
+  font-size: 20px;
+  height: 35px;
+}
+
+.button {
+  border: 2px rgb(128, 0, 0);
+  border-radius: 6px;
+  background-color: rgb(128, 0, 0);
+  color: white;
+  min-height: 40px;
+  min-width: 100px;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.title {
+  color: rgb(215, 183, 78);
+}
